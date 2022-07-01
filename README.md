@@ -5,7 +5,7 @@
 
 - 📝 I write articles on [My Blog](https://blog.timothybryantjr.com)
 
-- 🌐 Website [🖥️ official](https://timothybryantjr.com) 
+- 🌐 Website [🖥️ Official](https://timothybryantjr.com) 
 
 - ⚡ Hobbies **learning new things, homelab stuff, watching sports, car detailing, working on my yard**
 
