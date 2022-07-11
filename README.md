@@ -15,11 +15,9 @@
 <a href="https://linkedin.com/in/timothy-bryant-7aa00026" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="timothy-bryant-7aa00026" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Quick Stats:</h3>
+<h3 align="left">Stats:</h3>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=timmyb824&show_icons=true&locale=en&theme=tokyonight" alt="timmyb824" /></p>
-
-<h3 align="left">Additional Stats:</h3>
 
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
 
