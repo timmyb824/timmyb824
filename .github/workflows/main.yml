@@ -26,7 +26,7 @@ jobs:
 
           # Options
           template: classic
-          base: activity, community, repositories
+          base: community, repositories # removed activity
           config_timezone: America/New_York
 
 ## Originaal default from setup
