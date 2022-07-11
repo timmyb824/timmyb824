@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Tim Bryant</h1>
-<h3 align="center">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
+<h1 align="left">Hi 👋, I'm Tim Bryant</h1>
+<h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
 - 🌱 I’m currently learning **kubernetes, jenkins**
 
@@ -17,4 +17,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=timmyb824&show_icons=true&locale=en&theme=tokyonight" alt="timmyb824" /></p>
 
-
+<h3 align="left">Metrics:</h3>
+![Metrics](https://metrics.lecoq.io/?template=classic&base.header=0&base.metadata=0&base.indepth=false&base.hireable=false&config.timezone=America%2FNew_York)
