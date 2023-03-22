@@ -1,13 +1,13 @@
 <h1 align="left">Hi 👋, I'm Tim Bryant</h1>
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
-- 🌱 I’m currently learning **kubernetes, jenkins**
+- 🌱 I’m currently learning **kubernetes, python**
 
-- 📝 I write articles on [My Blog](https://blog.timothybryantjr.com)
+- 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com)
 
 - 🌐 Website [🖥️ Official](https://timothybryantjr.com) 
 
-- ⚡ Hobbies **learning new things, breaking and fixing things in my homelab, watching sports, car detailing, working on my yard**
+- ⚡ Hobbies **learning new things, breaking and fixing things in my home lab, watching sports, car detailing, working on my yard**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
