@@ -1,7 +1,7 @@
 <h1 align="left">Hi 👋, I'm Tim Bryant</h1>
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
-- 🌱 I’m currently learning **kubernetes, python**
+- 🌱 I’m currently learning **kubernetes, gitops, python**
 
 - 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com)
 
