@@ -7,7 +7,7 @@
 
 - 🌐 Website [🖥️ Official](https://timothybryantjr.com)
 
-- ⚡ Hobbies **learning new things, breaking and fixing things in my home lab, watching sports, car detailing, working on my yard**
+- ⚡ Hobbies **learning new things, breaking and fixing things in my home-lab, watching sports, car detailing, working on my yard**
 
 <h3 align="left">Homelab:</h3>
 
