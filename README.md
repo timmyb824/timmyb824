@@ -34,6 +34,15 @@ Finally, here is a screenshot showing a list of all the applications that are cu
 
 <img src="homelab-services.png"  width="600" height="300">
 
+If you are interested in learning more about how I operate my home-lab, I have repositories on GitHub that contain all the manifests, docker-compose files, and scripts that I use to deploy everything. You can find them here:
+
+- **[configs](https://github.com/timmyb824/configs)**
+- **[automations](https://github.com/timmyb824/automations)**
+- **[docker-apps](https://github.com/timmyb824/docker-apps)**
+- **[kubernetes-apps](https://github.com/timmyb824/kubernetes-apps)**
+
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/timmyb824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="timmyb824" height="30" width="40" /></a>
