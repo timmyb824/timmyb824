@@ -11,31 +11,36 @@
 
 <h3 align="left">Homelab:</h3>
 
-I run a home-lab within my house and even though its small, it is a blast to play with and I learn a lot from it. The following equipment is what I have in my home-lab:
+I run a small yet exciting home-lab within my house, where I constantly experiment and gain valuable knowledge. Here's a list of the equipment I currently have in my home-lab:
 
-- **Dell Optiplex 5000 PC**: running Proxmox VE
-- **Two Beelink Mini PCs**: one running Proxmox VE and one running primary adguard-home for local dns
-- **RasberryPI3**: runs backup adguard-home and acts as qdevice for Proxmox HA
-- **Synology NAS** (DS416slim): for file and object storage (via minio)
+- **Dell Optiplex 5000 PC**: running Proxmox VE which hosts my k3s cluster
+- **Two Beelink Mini PCs**:
+  1. running Proxmox VE
+  2. running several [podman](https://podman.io/) containers including my primary adguard-home for local dns
+- **RasberryPI3**: runs replica adguard-home and acts as [qdevice](https://blog.jenningsga.com/proxmox-keeping-quorum-with-qdevices/) to ensure Proxmox HA
+- **Synology NAS** (DS416slim): for file storage
 - **eero6 router & mesh network**
 - **TP-Link un-managed gig switch**
 - **APC UPS Pro 1500VA**: for power protection
 
-Within my home-lab I run several different open-source apps, tools, and services. Most of them are deployed within my k3s cluster but some are deployed using docker or directly on the VM's. For example, I use docker to deploy and backup my pihole instances, while my PostgreSQL database and Zabbix monitoring server are deployed directly on VM's. A few other points to note:
+Within my home lab, I operate multiple open-source applications, tools, and services. The majority of these are deployed within my k3s cluster, although some are deployed using docker/podman or directly on the VMs. For example, I utilize podman for deploying and backing up my adguardhome instances, whereas my PostgreSQL database and Zabbix monitoring server are directly deployed on the VMs. It is worth noting a few additional details:
 
-- I use [traefik](https://traefik.io/) as my reverse proxy for everything including Kuberenetes.
-- I pay for and use [tailscale](https://tailscale.com/) (highly recommend) as my VPN to access my home-lab from anywhere.
-- I use a mix of [portainer](https://www.portainer.io/) to manage my docker containers and [Lens](https://k8slens.dev/) to manage my k3s cluster. While I love the terminal, I find it nice to use GUI's to manage things sometimes.
-- I'm using [argocd](https://argoproj.github.io/cd/) for gitops within my k3s cluster. As of now, about half my services are deployed using argocd. I've found argocd tends to put alot of pressure on my cluster, so I'm cautious about deploying everything with it.
-- For secrets management, I use [vault](https://developer.hashicorp.com/vault) and the [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) to inject secrets into my pods as part of my gitops workflow. I intend to use vault for all my secrets management in the future, but only recently started using it. For other secrets, I use the command line tool `envsubst` to inject secrets directly into my manifests and docker-compose files.
-- For monitoring, I use a mix of tools including [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), and [alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) via the [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack). I also use [zabbix](https://www.zabbix.com/) for monitoring my network and VM's. Lastly, I use [uptime-kuma](https://github.com/louislam/uptime-kuma) to monitor my websites and the availability of my services and hosts.
-- For local dns I use [pihole](https://pi-hole.net/) and for ad-blocking I use a mix of pihole and [OpenDNS](https://www.opendns.com/).
+- I employ [traefik](https://traefik.io/) as my reverse proxy for all components, including Kubernetes.
+- To access my home lab from anywhere, I rely on [tailscale](https://tailscale.com/) (highly recommended) as my VPN solution.
+- I manage my docker containers using [portainer](https://www.portainer.io/), while [Lens](https://k8slens.dev/) helps me manage my k3s cluster. Although I enjoy working with the terminal, I find GUIs useful for certain management tasks.
+- [argocd](https://argoproj.github.io/cd/) serves as my gitops tool within the k3s cluster. Currently, approximately half of my services are deployed using argocd. However, I am cautious about relying entirely on argocd due to its potential impact on the cluster's performance.
+- To handle secrets, I utilize [vault](https://developer.hashicorp.com/vault) and the [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) to inject secrets into pods as part of my gitops workflow. While I plan to transition all my secrets management to vault in the future, I have recently started using it. For other secrets, I directly inject them into manifests and docker-compose files using the command line tool `envsubst`.
+- For monitoring, I employ a combination of tools such as [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), and [alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) through the [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack). Additionally, I utilize [zabbix](https://www.zabbix.com/) to monitor my network and VMs. Lastly, I rely on [uptime-kuma](https://github.com/louislam/uptime-kuma) to monitor the availability of my websites, services, and hosts.
+- To handle local DNS, I rely on [adguardhome](https://github.com/AdguardTeam/AdGuardHome), and for ad-blocking, I combine adguardhome with [cloudflare](https://www.cloudflare.com/).
+
+Apart from my home-lab, I have deployed multiple servers within Oracle Cloud Infrastructure (OCI) to host various services. This includes my [IP challenge website](https://github.com/timmyb824/ip-addr-challenge), which can be accessed at [ip-addr.timmybtech.com](https://ip-addr.timmybtech.com/), as well as a server running [Monika](https://monika.hyperjump.tech/), a command-line application for monitoring apps and services. By utilizing OCI, I ensure uninterrupted monitoring coverage that operates independently from my home-lab, offering reliability and resilience regardless of the status of my local infrastructure.
 
 Finally, here is a screenshot showing a list of all the applications that are currently deployed in my home-lab:
 
 <img src="homelab_updated.png"  width="600" height="300">
 
-If you are interested in learning more about how I operate my home-lab, I have repositories on GitHub that contain all the manifests, docker-compose files, and scripts that I use to deploy everything. You can find them here:
+
+If you wish to delve deeper into my home-lab's operations, I have GitHub repositories housing the manifests, docker-compose files, and scripts that facilitate all my deployments. You can locate them here:
 
 - **[configs](https://github.com/timmyb824/configs)**
 - **[automations](https://github.com/timmyb824/automations)**
