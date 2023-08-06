@@ -18,7 +18,7 @@ I run a small yet exciting home-lab within my house, where I constantly experime
   1. running Proxmox VE
   2. running several [podman](https://podman.io/) containers including my primary adguard-home for local dns
 - **RasberryPI3**: runs replica adguard-home and acts as [qdevice](https://blog.jenningsga.com/proxmox-keeping-quorum-with-qdevices/) to ensure Proxmox HA
-- **Synology NAS** (DS416slim): for file storage
+- **Synology NAS** (DS923+): for file storage
 - **eero6 router & mesh network**
 - **TP-Link un-managed gig switch**
 - **APC UPS Pro 1500VA**: for power protection
