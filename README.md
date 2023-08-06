@@ -1,8 +1,8 @@
 <h1 align="left">Hi 👋, I'm Tim Bryant</h1>
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
-- 🌱 I’m currently learning **...**
-
+- 🌱 I’m currently working on [PEZ-ServerMonitor](https://github.com/timmyb824/PEZ-ServerMonitor)
+ 
 - 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com)
 
 - 🌐 Website [🖥️ Official](https://timothybryantjr.com)
