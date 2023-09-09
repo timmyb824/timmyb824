@@ -1,7 +1,7 @@
 <h1 align="left">Hi 👋, I'm Tim Bryant</h1>
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
-- 🌱 I’m currently working on [PEZ-ServerMonitor](https://github.com/timmyb824/PEZ-ServerMonitor) and encrypting all my sensitive data using [SOPS](https://github.com/getsops/sops) and [age](https://github.com/FiloSottile/age)
+- 🌱 I’m currently working on [python-SysInformer](https://github.com/timmyb824/PEZ-ServerMonitor) and encrypting all my sensitive data using [SOPS](https://github.com/getsops/sops) and [age](https://github.com/FiloSottile/age)
  
 - 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com)
 
