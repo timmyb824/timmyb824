@@ -35,9 +35,9 @@ Within my home lab, I operate multiple open-source applications, tools, and serv
 
 Apart from my home-lab, I have deployed multiple servers within Oracle Cloud Infrastructure (OCI) to host various services. This includes my [IP challenge website](https://github.com/timmyb824/ip-addr-challenge), which can be accessed at [ip-addr.timmybtech.com](https://ip-addr.timmybtech.com/), as well as a server running [Monika](https://monika.hyperjump.tech/), a command-line application for monitoring apps and services. By utilizing OCI, I ensure uninterrupted monitoring coverage that operates independently from my home-lab, offering reliability and resilience regardless of the status of my local infrastructure.
 
-Finally, here is a screenshot showing a list of all the applications that are currently deployed in my home-lab:
+Finally, here is a screenshot showing some of the applications that are currently deployed in my home-lab:
 
-<img src="homelab_updated.png"  width="600" height="300">
+<img src="homelab_homepage.png"  width="600" height="300">
 
 
 If you wish to delve deeper into my home-lab's operations, I have GitHub repositories housing the manifests, docker-compose files, and scripts that facilitate all my deployments. You can locate them here:
