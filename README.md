@@ -2,7 +2,7 @@
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
 - 🌱 I’m currently working on [python-SysInformer](https://github.com/timmyb824/PEZ-ServerMonitor) and encrypting all my sensitive data using [SOPS](https://github.com/getsops/sops) and [age](https://github.com/FiloSottile/age)
- 
+
 - 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com)
 
 - 🌐 Website [🖥️ Official](https://timothybryantjr.com)
@@ -59,6 +59,7 @@ If you wish to delve deeper into my home-lab's operations, I have GitHub reposit
 
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
 
-<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.svg" width="400" alt="Tim Bryant's Dev Card"/></a>
-
 <a href="https://app.daily.dev/timmyb824"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.png" width="356" alt="Tim Bryant's Dev Card"/></a>
+
+<!-- Old card version:
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.svg" width="400" alt="Tim Bryant's Dev Card"/></a> -->
