@@ -60,3 +60,5 @@ If you wish to delve deeper into my home-lab's operations, I have GitHub reposit
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
 
 <a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.svg" width="400" alt="Tim Bryant's Dev Card"/></a>
+
+<a href="https://app.daily.dev/timmyb824"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.png" width="356" alt="Tim Bryant's Dev Card"/></a>
