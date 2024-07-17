@@ -43,10 +43,8 @@ Finally, here is a screenshot showing some (but not all) of the applications tha
 If you wish to delve deeper into my home-lab's operations, I have GitHub repositories housing the manifests, docker-compose files, and scripts that facilitate most of my deployments. You can locate them here:
 
 - **[dotfiles](https://github.com/timmyb824/dotfiles)**
-- **[dotfiles linux](https://github.com/timmyb824/dotfiles_linux)**
 - **[ansible](https://github.com/timmyb824/automation_ansible)**
 - **[terraform](https://github.com/timmyb824/automation_terraform)**
-- **[scripts](https://github.com/timmyb824/automation_scripts)**
 - **[pyinfra](https://github.com/timmyb824/automation_pyinfra)**
 - **[packer](https://github.com/timmyb824/automation_packer)**
 - **[docker-apps](https://github.com/timmyb824/docker-apps)**
