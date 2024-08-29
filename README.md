@@ -46,7 +46,7 @@ If you wish to delve deeper into my home-lab's operations, I have GitHub reposit
 
 - **[docker-apps](https://github.com/timmyb824/docker-apps)**
 - **[kubernetes-apps](https://github.com/timmyb824/kubernetes-apps)**
-- **[help-scripts](https://github.com/timmyb824/helper-scripts)**
+- **[helper-scripts](https://github.com/timmyb824/helper-scripts)**
 
 Lastly, I want to mention my dotfiles repository, which contains all of my configuration files for my shell across both macOS and Linux. I used a very powerful tool called [chezmoi](https://www.chezmoi.io/) to manage these files. With chezmoi I am able to encrypt sensitive files, pull secrets from 1password, and use go tempalting to manage more complex configurations. You can find my dotfiles repository here:
 
