@@ -65,8 +65,8 @@ Lastly, I want to mention my dotfiles repository, which contains all of my confi
 <!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=timmyb824&show_icons=true&locale=en&theme=tokyonight" alt="timmyb824" /></p> -->
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=timmyb824&show_icons=true&locale=en&theme=tokyonight" alt="timmyb824" /></p>
-  <img src="https://streak-stats.demolab.com/?user=timmyb824&theme=tokyonight&hide_border=false&date_format=M+j%5B%2C+Y%5D&mode=daily&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&card_height=200" alt="GitHub streak Card" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=timmyb824&show_icons=true&locale=en&theme=tokyonight&line_height=23" alt="timmyb824" /></p>
+  <img width="48%" src="https://streak-stats.demolab.com/?user=timmyb824&theme=tokyonight&hide_border=false&date_format=M+j%5B%2C+Y%5D&mode=daily&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&card_height=200" alt="GitHub streak Card" />
 </p>
 
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
