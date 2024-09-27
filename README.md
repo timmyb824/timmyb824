@@ -1,6 +1,8 @@
 <h1 align="left">Hi 👋, I'm Tim Bryant</h1>
 <h3 align="left">Passionate about Observability, Site Reliability, DevOps, and Automation</h3>
 
+![Profile views](https://komarev.com/ghpvc/?username=timmyb824&label=Profile%20views&color=0e75b6&style=flat)
+
 - 🌱 Check out my pins for projects I am currently working on or actively commit to
 
 - 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com) (need to be better about this)
