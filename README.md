@@ -5,9 +5,7 @@
 
 - 🌱 Check out my pins for projects I am currently working on or actively commit to
 
-- 📝 I sometimes write articles on [My Blog](https://blog.timothybryantjr.com) (need to be better about this)
-
-- 🌐 Website [🖥️ Official](https://timothybryantjr.com) (work in progress..)
+- 🌐 Website and Blog 📝 [🖥️ Official](https://timothybryantjr.com) (work in progress..)
 
 - ⚡ Hobbies **Learning new things, breaking and fixing things in my home-lab, watching sports, spending time with my family (Wife, Son, Dog, and 2 Cats)**
 
