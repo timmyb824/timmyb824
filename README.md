@@ -7,7 +7,7 @@
 
 - 🌐 Website and Blog [🖥️ Official](https://timothybryantjr.com) (work in progress..)
 
-- ⚡ Hobbies **Learning new things, breaking and fixing things in my home-lab, watching sports, spending time with my family (Wife, Son, Dog, and 2 Cats)**
+- ⚡ Hobbies **Learning new things, breaking and fixing things in my home-lab, axe throwing, pocket knife collecting, 3D printing, pc gaming, watching sports, spending time with my family (Wife, Son, Dog, and 2 Cats)**
 
 <h3 align="left">Homelab:</h3>
 
@@ -22,16 +22,17 @@ I run a small yet capable home-lab within my house, where I constantly experimen
 - **eero6 router & mesh network**
 - **TP-Link un-managed gig switch**
 - **APC UPS Pro 1500VA**: for power protection
-- **Old HP Laptop**: running Ubuntu server and used for adhoc tasks and testing
+- **Old HP Laptop**: running Ubuntu server and used for adhoc tasks and testing. It also serves as a qdevice for my Proxmox cluster to ensure high availability.
 
-Within my home lab, I operate multiple open-source applications, tools, and services. Some of these are deployed within my k3s cluster, and some are deployed using docker/podman or directly on a VM/LXC. I recently migrated several services over from podman to dedicated LXC's using [Proxmox Helper Scripts](https://tteck.github.io/Proxmox/). Here are some other interesting details:
+Within my home lab, I operate multiple open-source applications, tools, and services. Many of these are deployed within my k3s cluster, and some are deployed using docker/podman or directly on a VM/LXC. I recently migrated several services over from podman to dedicated LXC's using [Proxmox Helper Scripts](https://tteck.github.io/Proxmox/). Here are some other interesting details:
 
 - I employ [traefik](https://traefik.io/) as my reverse proxy for all components, including Kubernetes.
+- I use [authentik](https://www.authentik.io/) for authentication and authorization.
 - To access my home lab from anywhere, I rely on [tailscale](https://tailscale.com/) (highly recommended) as my VPN solution.
 - I use [k9s](https://k9scli.io/) to help manage my k3s cluster.
-- [argocd](https://argoproj.github.io/cd/) serves as my gitops tool within the k3s cluster. Currently, approximately half of my services are deployed using argocd. I am cautious about relying entirely on argocd due to its potential impact on the cluster's performance.
-- To handle secrets, I utilize [vault](https://developer.hashicorp.com/vault) and the [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) to inject secrets into pods as part of my gitops workflow.
-- For observability, I employ a combination of tools such as [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), and [loki](https://grafana.com/oss/loki/). I previously used the [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) but found it to be too resource intensive for my cluster. Additionally, I rely on [uptime-kuma](https://github.com/louislam/uptime-kuma) to monitor the availability of my public facing services and websites. These are exposed to the internet either using [CloudFlare Pages](https://pages.cloudflare.com/) or [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Finally, I created a simple tool called [python-URLChecker](https://github.com/timmyb824/python-URLChecker) to monitor the availability of internal services. This tool runs within my k3s cluster and sends alerts to my [ntfy](https://ntfy.sh/) server.
+- [argocd](https://argoproj.github.io/cd/) serves as my gitops tool within the k3s cluster.
+- To handle secrets, I utilize [vault](https://developer.hashicorp.com/vault) and the [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) to inject secrets as part of my gitops workflow.
+- For observability, I employ a combination of tools such as [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), and [loki](https://grafana.com/oss/loki/). I previously used the [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) but found it to be too resource intensive for my cluster. Additionally, I rely on [uptime-kuma](https://github.com/louislam/uptime-kuma) to monitor the availability of my public facing services and websites. These are exposed to the internet either using [CloudFlare Pages](https://pages.cloudflare.com/) or [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Finally, I created a simple tool called [PingPulse](https://github.com/timmyb824/PingPulse) to monitor the availability of internal services and emit prometheus metrics I alert on.
 - To handle local DNS, I rely on [adguardhome](https://github.com/AdguardTeam/AdGuardHome), and for ad-blocking, I combine adguardhome with [cloudflare](https://www.cloudflare.com/). I've also tried [pi-hole](https://pi-hole.net/) and [technitium](https://technitium.com/dns/), but I found adguardhome to be the simpliest for my needs.
 - I use [renovate](https://github.com/renovatebot/renovate) to keep my images up-to-date.
 - To encrypt sensitive data like env files, I use [sops](https://github.com/getsops/sops) and [age](https://age-encryption.org/).
@@ -40,7 +41,7 @@ Apart from my home-lab, I have deployed multiple servers within [Oracle Cloud In
 
 Here is a screenshot showing some of the applications that are currently deployed in my home-lab:
 
-<img src="homelab_20240812.png"  width="600" height="300">
+<img src="homelab_20250428.png"  width="600" height="300">
 
 In the sreenshot above, I am using a tool called [homepage](https://github.com/gethomepage/homepage) to display all of my services in a single page.
 
@@ -58,7 +59,7 @@ Lastly, I want to mention my dotfiles repository, which contains all of my confi
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/timmyb824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="timmyb824" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/timothy-bryant-7aa00026" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="timothy-bryant-7aa00026" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/timmyb824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="timmyb824" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Stats:</h3>
