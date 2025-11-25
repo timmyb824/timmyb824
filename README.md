@@ -39,7 +39,7 @@ Apart from my home-lab, I have deployed multiple servers within [Oracle Cloud In
 
 Here is a screenshot showing some of the applications that are currently deployed in my home-lab:
 
-<img src="homelab_20251125.png"  width="750" height="750">
+<img src="homelab_20251125_1.png"  width="750" height="750">
 <img src="homelab_20251125_2.png"  width="750" height="750">
 
 In the sreenshot above, I am using a tool called [homepage](https://github.com/gethomepage/homepage) to display all of my services in a single page.
