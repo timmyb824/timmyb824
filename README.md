@@ -21,7 +21,7 @@ I run a small yet capable home-lab within my house, where I constantly experimen
 - **APC UPS Pro 1500VA**
 - **Old HP Laptop**
 
-Within my home-lab, I run many open-source applications, tools, and services. Many of these are deployed within my k3s cluster, and some are deployed using docker/podman or directly on a VM/LXC. I recently migrated several services over to dedicated LXC's using [Proxmox Helper Scripts](https://tteck.github.io/Proxmox/). Here are some other interesting details:
+Within my home-lab, I run many open-source applications, tools, and services. Many of these are deployed within my k3s cluster, and some are deployed using podman or directly on a VM/LXC. I recently migrated several services over to dedicated LXC's using [Proxmox Helper Scripts](https://tteck.github.io/Proxmox/). Here are some other interesting details:
 
 - I employ [traefik](https://traefik.io/) as my reverse proxy for all components, including Kubernetes.
 - I use [authentik](https://www.authentik.io/) for authentication and authorization.
