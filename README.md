@@ -5,7 +5,7 @@
 
 - 🌱 Check out my pins for projects I am currently working on or actively commit to
 
-- 🌐 Website and Blog (when I have time to) [🖥️ Official](https://timothybryantjr.com)
+- 🌐 Personal website [🖥️ Official](https://timothybryantjr.com)
 
 - ⚡ Hobbies **Learning new things, breaking and fixing things in my home-lab, axe throwing, pocket knife collecting, 3D printing, pc gaming, watching sports, spending time with my family (Wife, Son, Dog, and Cat)**
 
