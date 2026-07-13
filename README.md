@@ -34,8 +34,9 @@ Within my home-lab, I run many open-source applications, tools, and services. Ma
 - For observability, I employ a combination of tools such as [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), [loki](https://grafana.com/oss/loki/), and [alloy](https://grafana.com/docs/alloy/latest/). Additionally, I rely on [uptime-kuma](https://github.com/louislam/uptime-kuma) to monitor the availability of my public facing services and websites. These are exposed to the internet using [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). Finally, I created a simple tool called [PingPulse](https://github.com/timmyb824/PingPulse) to monitor the availability of internal services and emit prometheus metrics I alert on.
 - To handle local DNS and ad-blocking, I rely on [adguardhome](https://github.com/AdguardTeam/AdGuardHome). I use [cloudflare](https://www.cloudflare.com/) as my DNS provider. I've also tried [pi-hole](https://pi-hole.net/) and [technitium](https://technitium.com/dns/), but I found adguardhome to be the simpliest for my needs.
 - I use [renovate](https://github.com/renovatebot/renovate) to keep my dependencies and images up-to-date.
+- I use [crowdsec](https://www.crowdsec.net/) to safeguard all publicly facing servers from malicious attacks.
 
-Apart from my home-lab, I have deployed multiple servers within [Oracle Cloud Infrastructure (OCI)](https://www.oracle.com/cloud/) to serve various needs. I use OCI over AWS or GCP because they have a very generous free tier that allows me run multiple servers without incurring any costs. These servers are deployed and manged using [Terraform](https://www.terraform.io/) and [Terraform Cloud](https://app.terraform.io/session).
+Apart from my home-lab, I have deployed multiple servers within [Oracle Cloud Infrastructure (OCI)](https://www.oracle.com/cloud/) to serve various needs. I use OCI over AWS or GCP because they have a very generous free tier that allows me run multiple servers without incurring any costs. These servers are deployed and manged using [OpenTofu](https://opentofu.org/). 
 
 Here is a screenshot showing some of the applications that are currently deployed in my home-lab:
 
@@ -50,7 +51,7 @@ If you wish to delve deeper into my home-lab's operations, I have GitHub reposit
 - **[homelab-k8s-apps](https://github.com/timmyb824/kubernetes-apps)**
 - **[homelab-scripts](https://github.com/timmyb824/helper-scripts)**
 - **[homelab-ansible](https://github.com/timmyb824/automation_ansible)**
-- **[homelab-tool-dns-tracer](https://github.com/timmyb824/homelab-tool-dns-tracer)**
+- **[iac-promox](https://github.com/timmyb824/iac-proxmox)**
 
 Lastly, I want to mention my **[dotfiles](https://github.com/timmyb824/dotfiles)** repository, which contains all of my configuration files for my shell across both macOS and Linux. I used a very powerful tool called [chezmoi](https://www.chezmoi.io/) to manage these files. With chezmoi I am able to encrypt sensitive files, pull secrets from 1password, and use go tempalting to manage more complex configurations.
 
