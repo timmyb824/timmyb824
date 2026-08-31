@@ -1,0 +1,29 @@
+name: Homelab Status Badge
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  homelab-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate homelab-status.svg
+        run: python3 scripts/homelab_status.py
+
+      - name: Commit badge if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add homelab-status.svg
+          git diff --cached --quiet || git commit -m "chore: update homelab-status.svg"
+          git push

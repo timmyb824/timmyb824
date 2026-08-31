@@ -11,7 +11,13 @@
 
 <h3 align="left">Homelab:</h3>
 
-I run a small yet capable home-lab within my house, where I constantly experiment to learn new things. Here's a list of the equipment I currently have in my home-lab:
+I run a small yet capable home-lab within my house, where I constantly experiment to learn new things.
+
+**Live status:** the lab publishes its own status via a small collector + API I built (Traefik/AdGuard/Proxmox/k3s/ArgoCD → snapshot → status page). Details on the [status page](https://timothybryantjr.com/status.html):
+
+[![Homelab status](homelab-status.svg)](https://timothybryantjr.com/status.html)
+
+Here's a list of the equipment I currently have in my home-lab:
 
 - **Dell Optiplex 5000 PC**
 - **Three Beelink Mini PCs**
