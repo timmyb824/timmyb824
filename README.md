@@ -59,7 +59,7 @@ If you wish to delve deeper into my home-lab's operations, I have GitHub reposit
 - **[homelab-ansible](https://github.com/timmyb824/automation_ansible)**
 - **[iac-promox](https://github.com/timmyb824/iac-proxmox)**
 
-Lastly, I want to mention my **[dotfiles](https://github.com/timmyb824/dotfiles)** repository, which contains all of my configuration files for my shell across both macOS and Linux. I used a very powerful tool called [chezmoi](https://www.chezmoi.io/) to manage these files. With chezmoi I am able to encrypt sensitive files, pull secrets from 1password, and use go tempalting to manage more complex configurations.
+Lastly, I want to mention my **[dotfiles](https://github.com/timmyb824/dotfiles)** repository, which contains all of my configuration files for my shell across macOS, Linux, and even windows. I used a very powerful tool called [chezmoi](https://www.chezmoi.io/) to manage these files. With chezmoi I am able to encrypt sensitive files, pull secrets from 1password, and use go templating to manage more complex configurations.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
