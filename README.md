@@ -76,7 +76,7 @@ Lastly, I want to mention my **[dotfiles](https://github.com/timmyb824/dotfiles)
   <img width="48%" src="https://streak-stats.demolab.com/?user=timmyb824&theme=tokyonight&hide_border=false&date_format=M+j%5B%2C+Y%5D&mode=daily&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&card_height=200" alt="GitHub streak Card" />
 </p>
 
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
+<!--<img align="center" src="/github-metrics.svg" alt="Metrics" width="400"> -->
 
 <a href="https://app.daily.dev/timmyb824"><img src="https://github.com/timmyb824/timmyb824/blob/main/devcard.png" width="356" alt="Tim Bryant's Dev Card"/></a>
 
